@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.all_view {
+	background-color: #FFFFF6;
+	padding-top: 100px;
+	width: 70%; /* 바디의 너비 설정 */
+	margin: 0 auto; /* 좌우 가운데 정렬 */
+	align-items: center; /* 수직 가운데 정렬 */
+	height: 100vh; /* 화면 전체 높이에 대한 100% 설정 */
+	text-align: center;
+	width: 50%;
+}
+
+.bottom_menu {
+	position: fixed;
+	bottom: 0px;
+	width: 70%; /* 너비를 100%로 설정 */
+	height: 80px;
+	z-index: 100;
+	background-color: #FFFF8F;
+	text-align: center; /* 가운데 정렬을 위해 추가 */
+}
+
+.bottom_menu>div {
+	float: left;
+	width: 20%;
+	height: 100%;
+	text-align: center;
+	padding-top: 13px;
+}
+
+
+.bottom_menu>div img {
+	height: 70%; /* 이미지 높이를 부모 요소의 높이에 맞춤 */
+}
+
+</style>
+</head>
+<body>
+	<div class="all_view">
+
+		<div class="bottom_menu">
+			<div>
+				<img src="./image/post.png">
+			</div>
+			<div>
+				<img src="./image/user.png">
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>
